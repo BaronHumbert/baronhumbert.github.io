@@ -243,12 +243,12 @@ nav:hover, nav:active {
       bottom: 470px;
     }
   h1 {
-    font-size: 120px;
+    font-size: 100px;
     margin-top: -50px;
     letter-spacing: 5px;
   }
   h2 {
-      margin-top: 100px;
+      margin-top: 150px;
       font-size: 40px;
   }
   #desc-box{
