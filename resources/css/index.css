@@ -75,7 +75,7 @@ nav {
     font-weight: bold;
     color: #9a9b9c;
     transition: left 0.25s ease 0.2s;
-    bottom: 420px;
+    top: 4%;
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -153,7 +153,7 @@ nav:hover, nav:active {
       animation: gradient 15s ease infinite;
     }
     nav {
-      bottom: 450px;
+      top: 4%;
     }
     h1 {
     font-size: 200px;
@@ -161,13 +161,13 @@ nav:hover, nav:active {
   }
   }
 
-  @media only screen and (max-width: 895px) {
+  @media screen and (max-width: 895px) {
     body {
       background-size: 400% 150%;
       animation: gradient 15s ease infinite;
     }
     nav {
-      bottom: 470px;
+      top: 1%;
     }
     h1 {
       letter-spacing: 10px;
@@ -179,18 +179,18 @@ nav:hover, nav:active {
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     body {
       background-size: 400% 150%;
       animation: gradient 15s ease infinite;
     }
     nav {
-      bottom: 470px;
+      top: 4%;
     }
   h1 {
-    font-size: 120px;
+    font-size: 110px;
     margin-top: -50px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
   h2 {
       margin-top: 150px;
