@@ -15,7 +15,7 @@ html, body {
           background-position: 0% 50%;
       }
       50% {
-          background-position: 100% 50%;
+          background-position: 95% 50%;
       }
       100% {
           background-position: 0% 50%;
@@ -76,7 +76,7 @@ nav {
   font-weight: bold;
   color: #9a9b9c;
   transition: left 0.25s ease 0.2s;
-  bottom: 420px;
+  top: 4%;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -189,37 +189,30 @@ nav:hover, nav:active {
 
   footer {
     position: absolute;
-    top: 900px;
+    bottom: -40%;
     left: 20px;
 }
 
   @media only screen and (max-width: 1300px) {
     body {
-      background-size: 400% 150%;
-      animation: gradient 15s ease infinite;
-    }
-    nav {
-      bottom: 450px;
+      background-size: 400% 230%;
     }
     h1 {
     font-size: 200px;
     letter-spacing: 10px;
   }
   footer {
-    margin-top: -105px;
-  }
+    position: absolute;
+    bottom: -20%;
+    left: 20px;
+}
   }
 
   @media only screen and (max-width: 895px) {
     body {
-      background-size: 400% 150%;
-      animation: gradient 15s ease infinite;
-    }
-    nav {
-      bottom: 470px;
+      background-size: 400% 200%;
     }
     h1 {
-      letter-spacing: 10px;
       font-size: 150px;
     }
     h2 {
@@ -229,18 +222,12 @@ nav:hover, nav:active {
     #desc-box{
       font-size: 25px;
     }
-    footer {
-      margin-top: -100px;
-    }
+
   }
 
   @media only screen and (max-width: 600px) {
     body {
-      background-size: 400% 150%;
-      animation: gradient 15s ease infinite;
-    }
-    nav {
-      bottom: 470px;
+      background-size: 400% 180%;
     }
   h1 {
     font-size: 100px;
@@ -253,9 +240,5 @@ nav:hover, nav:active {
   }
   #desc-box{
     font-size: 20px;
-  }
-
-  footer {
-    margin-top: -110px;
   }
   }
