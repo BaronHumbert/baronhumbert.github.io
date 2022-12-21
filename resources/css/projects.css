@@ -265,7 +265,7 @@ nav {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
   }
   footer {
     bottom: -45em;
@@ -286,6 +286,6 @@ nav {
       font-size: 35px;
   }
   footer {
-    bottom: -45em;
+    bottom: -36em;
 }
   }
