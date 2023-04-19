@@ -180,6 +180,7 @@ nav {
     padding-left: 50px;
     margin-top: -330px;
     margin-bottom: 200px;
+    border-radius: 20px;
   }
 
   .coin-desc {
@@ -192,6 +193,8 @@ nav {
   #coinflip {
     border-radius: 10px;
     margin-left: 40px;
+    max-width: 500px;
+  
   }
 
   #coinlink {
@@ -207,14 +210,14 @@ nav {
 
   footer {
     position: absolute;
-    bottom: -30em;
+    bottom: -130%;
     left: 20px;
 }
 
 
   @media only screen and (max-width: 1300px) {
     body {
-      background-size: 400% 320%;
+      background-size: 400% 400%;
       animation: gradient 15s ease infinite;
     }
   h1 {
@@ -243,14 +246,14 @@ nav {
   }
   footer {
     position: absolute;
-    bottom: -20em;
+    bottom: -130%;
     left: 20px;
 }
   }
 
   @media only screen and (max-width: 895px) {
     body {
-      background-size: 400% 350%;
+      background-size: 400% 500%;
       animation: gradient 15s ease infinite;
     }
 
@@ -268,13 +271,13 @@ nav {
     margin-bottom: 10px;
   }
   footer {
-    bottom: -45em;
+    bottom: -170%;
 }
   }
 
   @media only screen and (max-width: 600px) {
     body {
-      background-size: 400% 350%;
+      background-size: 400% 500%;
     }
   h1 {
     font-size: 70px;
@@ -286,6 +289,6 @@ nav {
       font-size: 35px;
   }
   footer {
-    bottom: -36em;
+      bottom: -180%;
 }
   }
