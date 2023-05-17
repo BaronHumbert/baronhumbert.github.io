@@ -2,7 +2,7 @@
 
   body {
       background: linear-gradient(-45deg, #ffe09c, #dfe6e6, #bbeaed, #9dc4b2);
-      background-size: auto;
+      background-size:auto;
       animation: gradient 15s ease infinite;
   }
 
@@ -23,9 +23,11 @@ h1 {
     font-size: 270px;
     letter-spacing: 10px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -70px;
     color: #9a9b9c;
-    width: auto;
+    width: fit-content;
     display: block;
 }
 
@@ -47,10 +49,12 @@ h1 {
 h2 {
     font-family: 'Roboto Condensed', 'sans-serif';
     font-size: 60px;
-    text-align: center;
+    width: fit-content;
     padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     color: #acadad;
-    display: block;
+    text-align: center;
 }
 
 h3 {
